@@ -1,0 +1,171 @@
+.sai{
+  /* border: red 5px solid; */
+  max-width: 824px;
+   margin: auto;
+   height: auto;
+   
+ }
+
+ .kumar{
+  margin-top:  80px;
+ }
+
+ .bests{
+  display:flex;
+flex-direction: column;
+margin-top: 30px;
+margin-bottom: 30px;
+/* position: fixed; */
+margin-left: -50px;
+ }
+
+
+ .badge {
+  width: 3%;
+  height: 3%;
+
+  border-radius: 100px;
+  background-color: #E1E4E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 1px solid #626E79;
+  font-family: Inter;
+  font-size: 16px;
+  color: #333;
+  line-height: 30px; /* Match the height of the circle */
+}
+
+
+ .best{
+  /* margin-top: 100px; */
+  width: 170px;
+  border-radius: 0 20px  20px 0; 
+  padding: 10px 20px;
+  background-color: #ebb60b; 
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: auto;
+ }
+ .layout{
+   display: flex;
+   flex-direction: row;
+   /* height: 255px; */
+  margin: 10px;
+   text-align: center;
+   justify-content: space-between;
+  padding: 20px;
+ }
+ 
+ .image{
+  margin: auto;
+ }
+ img{
+   width: 141px;
+ height: 103px;
+ margin: auto;
+ 
+ }
+ 
+ .layout-1{
+  
+  width: 490px;
+ height: auto;
+ margin-right: 57px;
+ text-align: start;
+ margin: 10px;
+
+ }
+ 
+ .layout-2{
+ background-color: skyblue;
+ padding: 2px;
+ border-radius: 20px;
+ width: 100px;
+ height:auto;
+ margin-top: -40px;
+ }
+
+ .mt4{
+  margin-top: 150px;
+  width: 170px;
+  /* position: fixed; */
+    margin-left: -110px;
+ }
+
+ .top{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-between;
+  margin-left:90px;
+  /* width: 400px; */
+
+top: 89px;
+left: 11px;
+
+ }
+
+ .top1{
+  height: auto;
+  /* width: 340px; */
+  padding: 5px;
+  text-align: start;
+  margin-left: 10px;
+
+height: 425px;
+top: 1806px;
+left: 300px;
+border-radius: 12px
+
+ }
+
+ .num{
+  display: flex;
+  flex-direction: row;
+ }
+
+ .layout11{
+ width: 490px;
+ height: auto;
+ margin-right: 57px;
+ text-align: start;
+ margin: 10px;
+
+ }
+ 
+ /* Footer styles */
+ footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+
+  .text {
+    color: aliceblue;
+  }
+
+  div {
+    max-width: 600px;
+    margin: 0 auto;
+
+    p {
+      margin: 5px 0;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
